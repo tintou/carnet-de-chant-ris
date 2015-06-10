@@ -1,0 +1,55 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je cherche fortune}[
+  by={Traditionnel}]
+  \begin{chorus}
+    Je cherche fortune
+    Tout le long du Chat Noir
+    Et au clair de la lune,
+    à Montmartre le soir.
+  \end{chorus}
+
+  \begin{verse}
+    Chez l'boulanger \echo{Chez l'boulanger}
+    Fais-moi crédit \echo{Fais-moi crédit}
+    J'ai pas d'argent \echo{J'ai pas d'argent}
+    J'paierai sam'di \echo{J'paierai sam'di}
+    Si tu n'veux pas \echo{Si tu n'veux pas}
+    M'donner du pain \echo{M'donner du pain}
+    J'te fourre la tête \echo{J'te fourre la tête}
+    Dans ton pétrin \echo{Dans ton pétrin}
+  \end{verse}
+
+  \begin{verse}
+    Chez le boucher \echo{Chez le boucher}
+    Fais-moi crédit \echo{Fais-moi crédit}
+    J’ai pas d’argent \echo{J’ai pas d’argent}
+    J’paierai samedi \echo{J’paierai samedi}
+    Si tu n’veux pas \echo{Si tu n’veux pas}
+    M’donner d’gigot \echo{M’donner d’gigot}
+    J’te fourr’ la tête \echo{J’te fourr’ la tête}
+    Sous ton billot ! \echo{Sous ton billot !}
+  \end{verse}
+
+  \begin{verse}
+    Chez M’sieur l’Curé \echo{Chez M’sieur l’Curé}
+    Fais-moi crédit \echo{Fais-moi crédit}
+    J’ai pas d’argent \echo{J’ai pas d’argent}
+    J’paierai samedi \echo{J’paierai samedi}
+    Si tu n’veux pas \echo{Si tu n’veux pas}
+    Me confesser \echo{Me confesser}
+    J’te fourr’ la tête \echo{J’te fourr’ la tête}
+    dans l’bénitier ! \echo{dans l’bénitier !}
+  \end{verse}
+
+  \begin{verse}
+    Chez l'pharmacien \echo{Chez l'pharmacien}
+    Fais-moi crédit \echo{Fais-moi crédit}
+    J’ai pas d’argent \echo{J’ai pas d’argent}
+    J’paierai samedi \echo{J’paierai samedi}
+    Si tu n’veux pas \echo{Si tu n’veux pas}
+    M'donner d'potion \echo{M'donner d'potion}
+    J’te fourr’ la tête \echo{J’te fourr’ la tête}
+    Dans tes flacons ! \echo{Dans tes flacons !}
+  \end{verse}
+\endsong

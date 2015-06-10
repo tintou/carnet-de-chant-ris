@@ -1,0 +1,33 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ah les crocodiles}
+  [by={Traditionnel}]
+
+  \begin{verse}
+    Un crocodile, s'en allant à la guerre
+    Disait au revoir à ses petits enfants
+    Trainant ses pieds, ses pieds dans la poussière
+    Il s'en allait combattre les éléphants
+  \end{verse}
+
+  \begin{chorus}
+    Ah ! Les crocrocro, les crocrocro, les crocodiles
+    Sur les bords du Nil, ils sont partis n'en parlons plus
+    Ah ! Les crocrocro, les crocrocro, les crocodiles
+    Sur les bords du Nil, ils sont partis n'en parlons plus
+  \end{chorus}
+
+  \begin{verse}
+    Il fredonnait une marche militaire
+    Dont il mâchait les mots à grosses dents
+    Quand il ouvrait la gueule tout entière
+    On croyait voir ses ennemis dedans
+  \end{verse}
+
+  \begin{verse}
+    Un éléphant parut et sur la terre
+    Se prépara ce combat de géant
+    Mais près de là, coulait une rivière
+    Le crocodile s'y jeta subitement
+  \end{verse}
+\endsong

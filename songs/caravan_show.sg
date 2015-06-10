@@ -1,0 +1,33 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Caravan Show}
+  [by={Jean Humenry}]
+
+  \begin{verse}
+    Nous \[Em]partirons un \[D]beau matin d'été
+    \[Em]Cara\[D]van \[Em]Show
+    Notre camion se\[D]ra plein à craquer
+    \[Em]Cara\[D]van \[Em]Show
+  \end{verse}
+
+  \begin{chorus}
+    \[G]Nous chante\[D]rons l'a\[C]mitié, \[D]le so\[Em]leil
+    \[G]Les bons co\[D]pains, nos\[C] seize ans \[D]et le \[Em]ciel.
+  \end{chorus}
+
+  \begin{verse}
+    Notre camion sera plein de chansons
+    Pour les amis que nous rencontrerons.
+  \end{verse}
+
+  \begin{verse}
+    Et chaque soir dans un pays nouveau
+    Nous gratterons nos guitares, nos banjos.
+  \end{verse}
+
+  \begin{verse}
+    Et puis un jour, quand tout sera fini
+    Nous rentrerons dans notre beau pays.
+  \end{verse}
+
+\endsong

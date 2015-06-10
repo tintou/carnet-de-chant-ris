@@ -1,0 +1,40 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Petrouchka, ne pleure pas}[by={Jean-claude Gianadda}]
+  \begin{verse}
+    Petrouchka, ne pleure pas,
+    Entre vite dans la ronde,
+    Fais danser tes nattes blondes,
+    Ton petit chat reviendra ;
+    Il s'est fait polichinelle
+    Dans les chemises en dentelles
+    de ton grand papa.
+  \end{verse}
+
+  \begin{chorus}
+    Tant que chante la colombe
+    par-dessus le toit,
+    Danse avant que la nuit tombe,
+    jolie Petrouchka !
+  \end{chorus}
+
+  \begin{verse}
+    Petrouchka, ne pleure pas,
+    Mets ton grand fichu de laine,
+    Viens avec nous dans la plaine,
+    Ton petit chat reviendra,
+    Il fait quatre galipettes,
+    Se déguise en marionnette
+    Dès que tu t'en vas.
+  \end{verse}
+
+  \begin{verse}
+    Petrouchka, ne pleure pas,
+    Puisqu'il aime la musique,
+    Chante lui cet air magique,
+    Ton petit chat reviendra ;
+    Il nous dansera peut-être
+    Sur le bord de la fenêtre
+    Une mazurka.
+  \end{verse}
+\endsong

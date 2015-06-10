@@ -1,0 +1,61 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Le monsieur en chemise}
+  [by={Marc Durand}]
+
+  \capo{3}
+  \begin{verse*}
+    {\nolyrics
+      Couplets : \[Am/C/F/C/G]
+      Refrain : \[F/C/G/C x2]
+    }
+  \end{verse*}
+
+  \begin{verse}
+    Je suis jaune, j’ai 8 ans 
+    et j’ai peur sans ma maman, 
+    j’sais rien faire, j’pleure tout le temps 
+    et j’me d’mande ce qui m’attend, 
+    y a un m’sieur qui m’regarde du haut de ses 19 ans 
+    qui me dit "t’inquiète pas tu vas kiffer pour longtemps"
+  \end{verse}
+
+  \begin{chorus}
+    Et il avait raison,
+    le monsieur, le monsieur en chemise 
+    il avait raison,
+    de me faire un p’tit peu la leçon 
+  \end{chorus}
+
+  \begin{verse}
+    Je suis bleu, j’ai 12 ans 
+    et j’ai plus peur sans maman 
+    entouré de copains, ils ne sont jamais bien loin 
+    j’ai appris j’ai grandi, j’ai découvert la vraie vie 
+    et l’monsieur qui me dit, "tu vas voir c’est pas fini"
+  \end{verse}
+
+  \begin{verse}
+    Je suis rouge, j’ai 15 ans 
+    et j’kiffe quand y a plus maman 
+    entouré des mêmes gens qui avait quand j’avais 8 ans 
+    y a un m’sieur qui m’regarde du haut de ses 25 ans 
+    qui me dit "mon p’tit gars t’es en train de dev’nir grand"
+  \end{verse}
+
+  \begin{verse}
+    Je suis vert, j’suis majeur 
+    et j’pense même plus à ma mère 
+    à bâtir des projets, à partir à l’étranger 
+    y a un m’sieur qui me dit "après ça c’est terminé"
+    je lui dis "sur’ment pas a mon tour de faire rêver"
+  \end{verse}
+
+  \begin{chorus}
+    Et maint’nant, c’est moi,
+    Le monsieur, le monsieur en chemise 
+    Et maint’nant, c’est moi,
+    qui m’permet de faire un p’tit peu la leçon
+  \end{chorus}
+
+\endsong
