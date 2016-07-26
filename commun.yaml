@@ -1,0 +1,74 @@
+book:
+  lang: fr
+  encoding: utf8
+  template: ris.tex
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+
+authors:
+  separators:
+    - "and"
+    - "et"
+content:
+  - "santiano.sg"
+  - "les_champs_elysees.sg"
+  - "debout_les_gars.sg"
+  - "les_copains_d_abord.sg"
+  - "aventure.sg"
+  - "le_bon_dieu_s_enervait.sg"
+  - "evenou_shalom.sg"
+  - "ne_rentrez_pas_chez_vous_comme_avant.sg"
+  - "vivre_l_aventure.sg"
+  - "avec_la_grace_de_dieu.sg"
+  - "siffler_sur_la_colline.sg"
+  - "le_sud.sg"
+  - "armstrong.sg"
+  - "contre_vents_et_marees.sg"
+  - "avec_ma_tribu.sg"
+  - "vis_tes_reves.sg"
+  - "eclaireur_de_tribu.sg"
+  - "le_chant_des_equipages.sg"
+  - "promesse.sg"
+  - "chant_de_la_promesse.sg"
+  - "chant_de_la_promesse_lvtx.sg"
+  - "l_aventurier.sg"
+  - "qui_peut_faire_de_la_voile_sans_vent.sg"
+  - "souvenirs_qui_passent.sg"
+  - "ah_les_crocodiles.sg"
+  - "petrouchka.sg"
+  - "le_petit_ane_gris.sg"
+  - "l_homme_de_cromagnon.sg"
+  - "red_river_valley.sg"
+  - "train_d_enfer.sg"
+  - "love.sg"
+  - "liberte.sg"
+  - "le_matou.sg"
+  - "ma_liberte.sg"
+  - "les_cosaques.sg"
+  - "plaine_ma_plaine.sg"
+  - "promesse_jjg_gregoire.sg"
+  - "le_monsieur_en_chemise.sg"
+  - "caravan_show.sg"
+  - "la_legende_indienne.sg"
+  - "la_caravane.sg"
+  - "des_couleurs_sur_mon_chemin.sg"
+  - "le_soleil.sg"
+  - "tout_le_bonheur_du_monde.sg"
+  - "au_coeur_de_la_planete.sg"
+  - "je_prends_le_relais.sg"
+  - "je_cherche_fortune.sg"
+  - "jeune_et_con.sg"
+  - "femme_liberee.sg"
+  - "l_hymne_de_nos_campagnes.sg"
+  - "legende_du_feu.sg"
+  - "youre_up.sg"
+  - "ging_gang_gooli.sg"
+  - "plus_rien_ne_m_etonne.sg"
+  - "il_faut_que_je_m_en_aille.sg"
+  - "chevalier_de_la_table_ronde.sg"
+  - "au_trente_et_un_du_mois_d_aout.sg"

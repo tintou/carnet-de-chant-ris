@@ -1,0 +1,207 @@
+%!- Copyright (C) 2014 The Patacrep team (www.patacrep.com)
+%!-
+%!- This program is free software; you can redistribute it and/or
+%!- modify it under the terms of the GNU General Public License
+%!- as published by the Free Software Foundation; either version 2
+%!- of the License, or (at your option) any later version.
+%!-
+%!- This program is distributed in the hope that it will be useful,
+%!- but WITHOUT ANY WARRANTY; without even the implied warranty of
+%!- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%!- GNU General Public License for more details.
+%!-
+%!- You should have received a copy of the GNU General Public License
+%!- along with this program; if not, write to the Free Software
+%!- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+%!- MA  02110-1301, USA.
+%!-
+%!- The latest version of this program can be obtained from
+%!- https://github.com/patacrep/
+
+(* variables *)
+schema:
+  type: //rec
+  optional:
+    version: //str
+  required:
+    subtitle: //str
+    url: //str
+    email: //str
+    picture: //str
+    picturecopyright: //str
+    footer: //str
+    color:
+      type: //rec
+      required:
+        songlink: //str
+        hyperlink: //str
+    bgcolor:
+      type: //rec
+      required:
+        songnumber: //str
+        note: //str
+        index: //str
+
+default:
+  en:
+    subtitle: ""
+    version: ""
+    url: "http://www.patacrep.com"
+    email: crep@team-on-fire.com
+    picture: img/feu
+    picturecopyright: ""
+    footer: ""
+    color:
+      songlink: "000000"
+      hyperlink: "000000"
+    bgcolor:
+      songnumber: DEDEDE
+      note: FFFFFF
+      index: DEDEDE
+  fr:
+    footer: ""
+description:
+  en:
+    subtitle: "Subtitle"
+    version: "Version"
+    url: "Website"
+    email: "Email"
+    picture: ""
+    picturecopyright: ""
+    footer: ""
+    color:
+      songlink: "Songlink color"
+      hyperlink: "Hyperlink color"
+    bgcolor:
+      songnumber: "Number Shade"
+      note: "Note Shade"
+      index: "Index Shade"
+  fr:
+    subtitle: "Sous-titre"
+    version: "Version"
+    url: "Site web"
+    email: "Adresse électronique"
+    picture: "Image de couverture"
+    picturecopyright: ""
+    footer: ""
+    color:
+      songlink: "Couleur des liens vers les chants"
+      hyperlink: "Couleurs des liens hypertextes"
+    bgcolor:
+      songnumber: "Couleur des numéros"
+      note: "Couleur des notes"
+      index: "Couleur d'index"
+(* endvariables -*)
+
+(*- extends "default.tex" -*)
+
+(* block title *)
+\setmainfont{Lato-Regular.ttf}[
+Path = fonts/Lato/,
+BoldFont = Lato-Bold.otf,
+ItalicFont = Lato-Italic.otf,
+BoldItalicFont = Lato-BoldItalic.ttf]
+    \begin{titlepage}
+    \begin{center}
+    \raisebox{-0.5\totalheight}[\totalheight]{\raisebox{\depth}{
+        \includegraphics[width=0.2\textwidth]{img/feu.pdf}
+    }}
+    \raisebox{-0.5\totalheight}[\totalheight]{\raisebox{\depth}{
+        \begin{minipage}[t]{.49\textwidth}
+            \centering
+            \Huge \bfseries Carnet de chant\\[0.5cm]
+            \small Scouts et Guides de France de Ris-Orangis\\[0.5cm]
+            \begin{flushright} 
+                \small \today
+            \end{flushright}
+        \end{minipage}
+    }}
+    \end{center}
+    \end{titlepage}
+    \newpage
+    \null
+    \newpage
+(* endblock *)
+
+(* block index *)
+    \showindex{\songindexname}{titleidx}
+(* endblock *)
+
+(* block chords *)
+    
+(* endblock *)
+
+(* block songbookpackages *)
+\usepackage[
+    (* for option in _bookoptions *)((option)),
+    (* endfor *)
+    ]{crepbook}
+(* endblock *)
+
+(* block songbookpreambule *)
+\usepackage{fontspec}
+\usepackage[
+     a5paper % paper size
+     ,hmarginratio=1:1 % ratio between inner and outer margin (default)
+     ,outer=1.8cm % outer margin (right)
+     ,vmarginratio=1:1 % ratio between top and bottom margin
+     ,bmargin=1.3cm % bottom margin
+     ,landscape
+     ]{geometry}
+
+(( super() ))
+
+\pagestyle{empty}
+\setcounter{songnum}{1}
+
+\renewcommand{\lyricfont}{\sffamily}
+\renewcommand{\printchord}[1]{\mdseries\sffamily\footnotesize#1}
+
+(*- set template_var = _template["ris.tex"] -*)
+\definecolor{SongNumberBgColor}{HTML}{(( template_var.bgcolor.songnumber ))}
+\definecolor{NoteBgColor}{HTML}{(( template_var.bgcolor.note ))}
+\definecolor{IndexBgColor}{HTML}{(( template_var.bgcolor.index ))}
+
+\renewcommand{\snumbgcolor}{SongNumberBgColor}
+\renewcommand{\notebgcolor}{NoteBgColor}
+\renewcommand{\idxbgcolor}{IndexBgColor}
+
+\definecolor{tango-green-3}{HTML}{(( template_var.color.songlink ))}
+\definecolor{tango-blue-3}{HTML}{(( template_var.color.hyperlink ))}
+
+% Alléger l'apparence du refrain
+\renewcommand{\everychorus}{\textbf{\bf Refrain :}}
+\setlength{\cbarwidth}{0pt}
+% N'afficher que le titre et auteur
+\renewcommand{\extendprelude}{
+  \showrefs\showauthors
+}
+
+\renewcommand\capo[1]{%
+  \iftranscapos\transpose{#1}\else\musicnote{capo #1}\fi%
+}
+
+\setlength{\sbarheight}{0pt}
+
+\usepackage[
+    bookmarks,
+    bookmarksopen,
+    hyperfigures=true,
+    colorlinks=true,
+    linkcolor=tango-green-3,
+    urlcolor=tango-blue-3,
+    unicode=true
+    ]{hyperref}
+
+
+\subtitle{(( template_var.subtitle|escape_specials ))}
+(* if template_var.version -*)
+    \version{(( template_var.version ))}
+(* endif *)
+\mail{(( template_var.email|escape_url ))}
+\web{(( template_var.url|escape_url ))}
+\picture{(( template_var.picture ))}
+\picturecopyright{(( template_var.picturecopyright ))}
+\footer{(( template_var.footer ))}
+(* endblock *)
+
