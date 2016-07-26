@@ -1,73 +1,64 @@
 \selectlanguage{french}
 \songcolumns{2}
-\beginsong{Au trente et un du mois d'août}
-  [by={Traditionel}]
+\beginsong{L'homme de Cro-Magnon}
+  [by={Traditionnel},album={France}]
+
+  \cover
+  \gtab{C}{X32010}
+  \gtab{G7}{320001}
+  \gtab{G}{320003}
+  \gtab{F}{1:022100}
 
   \begin{verse}
-Au trente et\[E]un du mois d'a-oût
-Au trente et un du mois d'a-\[B]oût
-Nous vîmes ve\[E]nir sous l'vent vers nous,
-Nous vîmes venir sous l'vent vers\[B]nous,
-Une fré\[E]gate d'Angl\[A]eter\[E]-re
-Qui fendait la\[B]mer et les\[E]flots,
-\[A]C'était pour\[E]at-ta\[B]quer Bor\[E]deaux.
+    C'était au \[C]temps d'la préhistoire
+    Il y a de ça trois cent mille \[G7]ans
+    Vivait un être assez bizarre
+    Proche parent d'l'orang-out\[C]an
+    Debout sur ses pattes de derrière
+    Vêtu d'un slip en peau d'bi\[G7]son
+    Il all\[F]ait conqué\[G]rir la \[C]terre
+    C'était l'homme \[G]de Cro-Mag\[C]non
   \end{verse}
 
   \begin{chorus}
-Buvons un coup, buvons-en deux
-À la santé des amou\[B]reux,
-À la san\[E]té du Roi de\[A] Fra\[E]n-ce
-Et merde pour le\[B]Roi d'Angleterre,
- A Qui nous a \[E]  dé-cl\[B]aré la\[E]guerre !
+    L'homme de \[C]cro, l'homme de ma, l'homme de gnon
+    L'\[G7]homme de Cro-Magn\[C]on \echo{bouh !}
+    L'\[F]homme de cro, de mag\[C]non c'était pas du bi\[G]don
+    L'homme de Cro-Ma\[C]gnon \rep{2}
   \end{chorus}
 
   \begin{verse}
-Le capitaine du bâtiment,
-Le capitaine du bâtiment,
-Fit appeler son lieutenant,
-Fit appeler son lieutenant,
-"Voila l'anglais, t'sens-tu l'courage,
-D'aller l'attaquer à son bord ?
-Pour voir qui sera l'plus fort"
+    Armé de sa hache de guerre
+    De son couteau en pierre itou
+    Il chassait l'ours et la panthère
+    Serrant les fesses malgré tout
+    Devant l'diplodocus en rage
+    L'homme se sentait tout petit
+    Et se disait dans son langage
+    Vivement qu'on invente le fusil
   \end{verse}
 
-\begin{verse}
-Le lieutenant fier z'et hardi
-Le lieutenant fier z'et hardi
-Lui répondit "Ah par Dieu oui"
-Lui répondit "Ah par Dieu oui"
-Allertez tout l'équipage
-Et hisser not'pavillon
-Qui rest'ra haut, nous le jurons.
+  \begin{verse}
+    Il était poète à ses heures
+    Disait à sa femme en émoi :
+    {\og}Tu es belle comme un dinosaure
+    Tu ressembles à Lollo Brigida{\fg}
+    Si tu veux voir des cartes postales
+    Viens dans ma caverne tout là-haut
+    J'te f'rai voir mes peintures murales
+    On dirait du vrai Picasso
   \end{verse}
 
-\begin{verse}
-Le maître donne un coup d'sifflet
-Le maître donne un coup d'sifflet
-Cargue les voiles au perroquet
-Cargue les voiles au perroquet
-File l'écoute et vent arrière
-Laisse porter jusqu'à son bord
-On verra bien qui s'ra le plus fort !
+  \begin{verse}
+    Trois cent mille ans après sur terre
+    Comme nos ancêtres, nous admirons
+    Les monts, les bois et les rivières
+    Mais s'ils revenaient, quelle déception
+    De nous voir suer six jours sur sept
+    Ils diraient sans faire de détail :
+    {\og}Faut-il que nos héritiers soient bêtes
+    Pour avoir inventé le travail ?{\fg}
   \end{verse}
 
-\begin{verse}
-Vir'lof pour lof au même instant
-Vir'lof pour lof au même instant
-Nous l'attaquâm's par son avant
-Nous l'attaquâm's par son avant
-À coups de haches d'abordage,
-De sabres, piqu's et mousquetons,
-Nous l'eûm's vit'mis à la raison
-  \end{verse}
-
-\begin{verse}
-Que dira-t-on dudit bateau
-Que dira-t-on dudit bateau
-En Angleterr'-z-et à Bordeaux
-En Angleterr'-z-et à Bordeaux
-Qu'a laissé prendr'son équipage
-Par un corsair'de six canons,
-Lui qu'en avait trente et si bons ?
-  \end{verse}
 \endsong
+
