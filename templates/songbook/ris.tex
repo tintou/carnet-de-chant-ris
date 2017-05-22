@@ -96,11 +96,12 @@ description:
 (*- extends "default.tex" -*)
 
 (* block title *)
-\setmainfont{Lato-Regular.ttf}[
-Path = fonts/Lato/,
-BoldFont = Lato-Bold.otf,
-ItalicFont = Lato-Italic.otf,
-BoldItalicFont = Lato-BoldItalic.ttf]
+    \setmainfont[
+        Path = fonts/Lato/,
+        Extension = .ttf,
+        BoldFont = Lato-Bold,
+        ItalicFont = Lato-Italic,
+        BoldItalicFont = Lato-BoldItalic]{Lato-Regular}
     \begin{titlepage}
     \begin{center}
     \raisebox{-0.5\totalheight}[\totalheight]{\raisebox{\depth}{
